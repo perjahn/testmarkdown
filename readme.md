@@ -1,4 +1,7 @@
-```sequence {theme="hand"}
-Aa->Bb: Cc
-Note right of Bb: Dd
-```
+{% mermaid %}
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+{% endmermaid %}
